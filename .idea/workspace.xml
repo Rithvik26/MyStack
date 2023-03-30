@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added setup method in MYStackTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MyStackTest.java" afterDir="false" />
+    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added first test case">
       <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680128704347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added first test case">
+      <created>1680194034398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680194034398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created MyStackTest and MYStack files" />
     <MESSAGE value="Added setup method in MYStackTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added setup method in MYStackTest" />
+    <MESSAGE value="Added first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first test case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680130186441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
