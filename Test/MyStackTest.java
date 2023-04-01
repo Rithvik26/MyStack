@@ -78,6 +78,15 @@ public class MyStackTest {
         assertEquals("Morning", stack.peek());
     }
 
-
+    @Test
+    public void testPeekEmpty() {
+        // Cause: try to peek from an empty stack
+        try {
+            stack.peek();
+            fail("Expected IllegalStateException");
+        } catch (IllegalStateException e) {
+            // Effect: IllegalStateException is thrown
+        }
+    }
 
     }
