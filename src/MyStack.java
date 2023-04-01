@@ -22,4 +22,13 @@ public class MyStack {
     public Object peek() {
         return stack[top];
     }
+
+
+    public Object pop() {
+        Object item = stack[top];
+        stack[top] = null;
+        top--;
+        return item;
+    }
+
 }

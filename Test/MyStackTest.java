@@ -49,7 +49,7 @@ public class MyStackTest {
 
     @Test
     public void testPop() {
-        stack.push("hello");
+        stack.push("Hello");
         // Cause: pop the value from the stack
         Object item = stack.pop();
 
