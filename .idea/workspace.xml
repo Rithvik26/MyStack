@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added Test case 9">
+    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added Test case 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MyStackTest.java" afterDir="false" />
     </list>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680389934639</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Test case 10">
+      <created>1680390655577</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680390655577</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,9 +270,10 @@
     <MESSAGE value="Added Test Case 8" />
     <MESSAGE value="Added exception handling in peek method" />
     <MESSAGE value="Added Test case 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test case 9" />
+    <MESSAGE value="Added Test case 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test case 10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680390332676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680390997091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

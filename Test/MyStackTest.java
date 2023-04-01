@@ -1,5 +1,10 @@
 import static org.junit.Assert.*;
 import org.junit.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+
 public class MyStackTest {
     private MyStack stack;
     @Before
@@ -108,7 +113,31 @@ public class MyStackTest {
         assertFalse(stack.empty());
         assertEquals(99, stack.pop());
     }
+    @Test
+    public void testPeekFromFullStack() {
+        // Boundary: peek from full stack
+        for (int i = 0; i < 100; i++) {
+            stack.push(i);
+        }
+        assertFalse(stack.empty());
+        assertEquals(99, stack.peek());
+    }
 
+    @Test
+    public void testPrint() throws IOException {
+        stack.push("Good");
+        stack.push("Morning");
 
+        try (ByteArrayOutputStream out = new ByteArrayOutputStream();
+             PrintStream stream = new PrintStream(out)) {
+            System.setOut(stream);
 
+            stack.print();
+
+            String output = out.toString();
+            assertEquals("Morning\nGood\n", output);
+        } finally {
+            System.setOut(System.out);
+        }
+    }
     }
