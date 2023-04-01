@@ -68,5 +68,16 @@ public class MyStackTest {
             // Effect: IllegalStateException is thrown
         }
     }
+    @Test
+    public void testPeek() {
+        // Cause: push a value onto the stack
+        stack.push("Morning");
+
+        // Effect: peek returns the pushed value without removing it
+        assertFalse(stack.empty());
+        assertEquals("Morning", stack.peek());
+    }
+
+
 
     }
