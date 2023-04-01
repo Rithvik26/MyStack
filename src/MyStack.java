@@ -20,9 +20,6 @@ public class MyStack {
 
 
     public Object peek() {
-        if (empty()) {
-            throw new IllegalStateException("Stack is empty");
-        }
         return stack[top];
     }
 }
