@@ -37,4 +37,9 @@ public class MyStack {
         return item;
     }
 
+    public void print() {
+        for (int i = top; i >= 0; i--) {
+            System.out.println(stack[i]);
+        }
+    }
 }
