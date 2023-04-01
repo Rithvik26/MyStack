@@ -58,5 +58,15 @@ public class MyStackTest {
         assertEquals("Hello", item);
     }
 
+    @Test
+    public void testPopEmpty() {
+        // Cause: try to pop from an empty stack
+        try {
+            stack.pop();
+            fail("Expected IllegalStateException");
+        } catch (IllegalStateException e) {
+            // Effect: IllegalStateException is thrown
+        }
+    }
 
     }
