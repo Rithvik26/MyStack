@@ -88,5 +88,13 @@ public class MyStackTest {
             // Effect: IllegalStateException is thrown
         }
     }
+// Boundary value tests
 
+    @Test
+    public void testPushToEmptyStack() {
+        // Boundary: push to empty stack
+        stack.push("Hello");
+        assertFalse(stack.empty());
+        assertEquals("Hello", stack.peek());
+    }
     }
