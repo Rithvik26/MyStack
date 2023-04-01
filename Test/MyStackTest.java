@@ -21,5 +21,18 @@ public class MyStackTest {
         assertFalse(stack.empty());
     }
 
+    @Test
+    public void testPushToFullStack() {
+        // Partition: full stack
+        for (int i = 0; i < 100; i++) {
+            stack.push(i);
+        }
+        try {
+            stack.push(100);
+            fail("Expected IllegalStateException");
+        } catch (IllegalStateException e) {
+            // Effect: IllegalStateException is thrown
+        }
+    }
 
 }
