@@ -25,6 +25,9 @@ public class MyStack {
 
 
     public Object pop() {
+        if (empty()) {
+            throw new IllegalStateException("Stack is empty");
+        }
         Object item = stack[top];
         stack[top] = null;
         top--;
