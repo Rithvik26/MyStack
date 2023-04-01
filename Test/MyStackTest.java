@@ -35,4 +35,16 @@ public class MyStackTest {
         }
     }
 
-}
+    // Cause-effect tests
+
+    @Test
+    public void testPush() {
+        // Cause: push a value onto the stack
+        stack.push("Hello");
+
+        // Effect: stack is not empty and peek returns the pushed value
+        assertFalse(stack.empty());
+        assertEquals("Hello", stack.peek());
+    }
+
+    }

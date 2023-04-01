@@ -11,8 +11,12 @@ public class MyStack {
     }
 
     public void push(Object item) {
+        if (top == 99) {
+            throw new IllegalStateException("Stack is full");
+        }
         top++;
         stack[top] = item;
     }
+
 
 }
