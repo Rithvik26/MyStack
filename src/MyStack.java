@@ -1,5 +1,5 @@
 public class MyStack {
-    private Object[] stack;
+    private final Object[] stack;
     private int top;
     public MyStack() {
         stack = new Object[100];
