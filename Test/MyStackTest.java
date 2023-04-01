@@ -88,8 +88,9 @@ public class MyStackTest {
             // Effect: IllegalStateException is thrown
         }
     }
-// Boundary value tests
 
+
+    // Boundary value tests
     @Test
     public void testPushToEmptyStack() {
         // Boundary: push to empty stack
@@ -97,4 +98,17 @@ public class MyStackTest {
         assertFalse(stack.empty());
         assertEquals("Hello", stack.peek());
     }
+
+    @Test
+    public void testPopFromFullStack() {
+        // Boundary: pop from full stack
+        for (int i = 0; i < 100; i++) {
+            stack.push(i);
+        }
+        assertFalse(stack.empty());
+        assertEquals(99, stack.pop());
+    }
+
+
+
     }
