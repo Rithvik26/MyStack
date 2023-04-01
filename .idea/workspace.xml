@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Developed Mystack code to test the first test case written">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MyStackTest.java" afterDir="false" />
+    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added Test case 2">
+      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680194156294</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Test case 2">
+      <created>1680331672944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680331672944</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +158,8 @@
     <MESSAGE value="Added setup method in MYStackTest" />
     <MESSAGE value="Added first test case" />
     <MESSAGE value="Developed Mystack code to test the first test case written" />
-    <option name="LAST_COMMIT_MESSAGE" value="Developed Mystack code to test the first test case written" />
+    <MESSAGE value="Added Test case 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test case 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680327993429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

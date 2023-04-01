@@ -9,4 +9,10 @@ public class MyStack {
     public boolean empty() {
         return top == -1;
     }
+
+    public void push(Object item) {
+        top++;
+        stack[top] = item;
+    }
+
 }
