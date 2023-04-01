@@ -47,4 +47,16 @@ public class MyStackTest {
         assertEquals("Hello", stack.peek());
     }
 
+    @Test
+    public void testPop() {
+        stack.push("hello");
+        // Cause: pop the value from the stack
+        Object item = stack.pop();
+
+        // Effect: stack is empty and the popped value is returned
+        assertTrue(stack.empty());
+        assertEquals("Hello", item);
+    }
+
+
     }
