@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added Exception handling to pop method">
+    <list default="true" id="302380ba-b369-44f4-ab4d-46514bb3b81b" name="Changes" comment="Added Test Case 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MyStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680385209059</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Test Case 7">
+      <created>1680387810108</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680387810108</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added Test Case 8">
+      <created>1680387981732</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680387981732</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +244,9 @@
     <MESSAGE value="Added Pop method" />
     <MESSAGE value="Added Test Case 6" />
     <MESSAGE value="Added Exception handling to pop method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Exception handling to pop method" />
+    <MESSAGE value="Added Test Case 7" />
+    <MESSAGE value="Added Test Case 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test Case 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,6 +260,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680386840340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MyStack$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1680387967290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
