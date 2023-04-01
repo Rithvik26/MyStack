@@ -13,4 +13,13 @@ public class MyStackTest {
         // Partition: empty stack
         assertTrue(stack.empty());
     }
+
+    @Test
+    public void testNonEmptyStack() {
+        // Partition: non-empty stack
+        stack.push("Hello");
+        assertFalse(stack.empty());
+    }
+
+
 }
